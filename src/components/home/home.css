@@ -1,0 +1,165 @@
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:calc(100vw - 2rem)  ;
+    margin:  0.5rem 1rem;
+    padding: 1rem;
+    background: white;
+  
+
+}
+
+@media screen and (max-width:500px) {
+    #home{
+       
+        width:100%   ;
+        margin:  0.5rem 0;
+        padding: 10px;
+       
+    
+    }
+}
+
+
+
+  
+  .section {
+    padding: 1rem 1rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .sectionDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+
+  }
+  
+  
+  .sectionTitle {
+    color: #51ca94;
+    margin-bottom: 0.8rem;
+    text-align: center;
+  }
+  
+  .sectionDivIMG {
+    width: 50rem;
+    max-width: 100%;
+    border-radius: 0.4rem 0;
+    padding: 10px;
+    height: auto;
+    object-fit: cover;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, darkblue, rgb(107, 255, 243)) 1;
+  
+        transition:  0.2s ease-in;
+  }
+.sectionDivIMG:hover{
+    -webkit-box-shadow: 25px 25px 0px 0px rgba(16,3,255,1);
+-moz-box-shadow: 25px 25px 0px 0px rgba(16,3,255,1);
+box-shadow: 25px 25px 0px 0px rgb(3, 192, 255);
+margin-bottom: 1rem;
+padding: 0;
+border: none;
+
+}  
+
+
+  .sectionDivPARA {
+  padding: 15px;
+  width: 50rem;
+  max-width: 100%;
+  border-bottom: 1px solid rgb(195, 190, 190);
+  }
+  
+
+  .sectionUl{
+    width: 100%;
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border-bottom: 1px solid rgb(195, 190, 190);
+    margin:  0 1rem;
+    padding-bottom: 2rem;
+
+  }
+
+  .sectionUlLi{
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column; 
+    color: rgb(216, 110, 34);
+    background-color: rgb(233, 229, 233);
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+  }
+  .sectionUlLiImg{
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+  }
+
+.sectionUlLiSpan{
+  margin: 0.5rem auto;
+  color: darkgray;
+  font-weight: 300;
+}
+
+.sectionUlGen{
+  max-width: 25rem;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.sectionGenTitle{
+  background-color: rgb(210, 198, 66);
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: aliceblue;
+}
+
+.sectionGenImg{
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.sectionSolImg{
+  width: 100%;
+  margin: 1rem 0 ;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, rgb(239, 87, 145), rgb(225, 255, 107)) 1;
+
+}
+
+.sectionSol{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  padding: 0.5rem;
+}

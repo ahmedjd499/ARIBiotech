@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Josefin+Sans:wght@100;200&family=Lexend+Deca:wght@100;200&family=Poppins:wght@100;200;300;400;500;600&family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: transparent;
+  font-family: 'Poppins',sans-serif;
+}
+
+body {
+  background: #F5F7FA;
+  color: #245389;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:  #696161;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #41C4AF;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3865ad;
+}

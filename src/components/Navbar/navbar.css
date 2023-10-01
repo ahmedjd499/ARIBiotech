@@ -1,0 +1,165 @@
+
+.navbar{
+    background:rgb(255,255,255);
+    height: 5rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    box-shadow: 0px 10px 20px -3px rgba(152,198,224,1);
+}
+@media screen and (max-width:500px) {
+    #navbar{
+       
+        width:100%   ;
+        margin:  0.5rem 0;
+        padding: 10px;
+       
+    
+    }
+}
+
+.logo {
+    object-fit: cover;
+    height: 5rem;
+    width: 10rem;
+    cursor: pointer;
+    margin-right: 1rem;
+    border-radius: 5px;
+    border: 2px solid rgb(126, 200, 205);
+    
+}
+
+.brandtitle{
+    font-size: 2rem;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.desktopMenulistItem {
+    margin: 1rem ;
+    cursor: pointer;
+
+}
+.desktopMenulistItem:hover{
+    color: cornflowerblue;
+    font-weight: 500;
+    padding: 0.5rem 0.5rem;
+    border-bottom: 2px solid cornflowerblue;
+    border-top: 2px solid cornflowerblue;
+}
+
+.desktopMenuBtn {
+    background: #41C4AF;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+
+.desktopMenuImg {
+    object-fit: cover;
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.5rem;
+}
+.active
+{
+    color: cornflowerblue;
+    font-weight: 500;
+    padding: 0.5rem 0.5rem;
+    border-bottom: 2px solid cornflowerblue;
+    border-top: 2px solid cornflowerblue;
+}
+
+.mobMenu{
+    display: none;
+    object-fit: cover;
+    height: 1.8rem;
+}
+
+.navMenu{
+    position: absolute;
+    top: 5rem;
+    width: 50vw;
+    right: 1rem;
+    margin: 0 auto;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: transparent;
+    border-radius: 1rem;
+}
+.listItem{
+    color: white;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background:rgb(65,196,175) ;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.listItem:hover{
+    background-color: azure;
+    color: #0B416E;
+    border: 2px solid #0B416E;
+}
+
+.break{
+    width: calc(100%-1rem);
+    border: 1px solid rgb(195, 191, 191);
+    margin: 0.4rem 0.8rem;
+}
+.Buy{
+    background-color:rgb(190, 218, 241) ;
+    color: navy ;
+    font-weight: 600;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: 0.5rem 3rem;
+    margin: 0.3rem;
+}
+.BuyImg{
+    object-fit: cover;
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.5rem;
+}
+@media screen and (max-width:940px) {
+    .mobMenu{
+        display: flex;
+    }
+    .desktopmenu,.desktopMenuBtn{
+        display: none;
+    }
+
+    .active
+    {
+        background-color: azure;
+        color: #0B416E;
+        border: 2px solid #0B416E;
+
+    }
+    .link{
+        display: none;
+    }
+}

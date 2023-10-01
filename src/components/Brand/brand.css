@@ -1,0 +1,50 @@
+#brand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(100vw);
+    height: fit-content;
+    background: white;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    border-bottom: 2px solid rgb(220, 239, 252);
+    margin: 0 auto;
+  
+}
+
+@media screen and (max-width:500px) {
+    #brand{
+       
+        width:100%   ;
+        margin:  0.5rem 0;
+        padding: 10px;
+       
+    
+    }
+}
+
+.brandImg{
+    object-fit: cover;
+    height: 5rem;
+    width: 10rem;
+    margin: 0 0.5rem;
+}
+
+.brandTitle{
+    font-size: 4rem;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.brandTitle1{
+    color:#0B416E ;
+}
+.brandTitle2{
+    color:#41C4AF ;
+}
+.brandDesc{
+    color: #587286;
+}
