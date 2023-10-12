@@ -5,6 +5,7 @@ import buy from '../../assets/buy.png'
 import menu from '../../assets/menu.png'
 import close from '../../assets/close.png'
 import brand from '../../assets/logoSen.png'
+import Store from '../store/Store';
 
 
 const Navbar = () => {
@@ -21,7 +22,8 @@ const [showMenu ,setShowMenu]=useState(false)
 
     </div>
     <button className='desktopMenuBtn'>
-        <img src={buy} alt=''className='desktopMenuImg'/> Acheter
+           <Store />
+
     </button>
 
 
@@ -34,10 +36,10 @@ const [showMenu ,setShowMenu]=useState(false)
         <Link activeClass='active' to='partners' spy={true} smooth={true} offset={-100} duration={500}className='listItem' onClick={()=>setShowMenu(false)}>Partenaires </Link>
         <span className="break"></span>
         <button className='Buy'>
-          <img src={buy} alt=''className='BuyImg'/> Acheter
+            <Store />
         </button>
     </div>
-    
+
    </nav>
   )
 }

@@ -6,6 +6,7 @@ import Footer from './components/footer/Footer';
 import About from './components/about/About';
 import Events from './components/event/Events';
 import Home from './components/home/Home';
+import Store from './components/store/Store';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <Events />
       <Partners />
       <Footer />
+      
+
     </div>
   );
 }

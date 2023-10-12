@@ -163,3 +163,10 @@ border: none;
   align-items: center;
   padding: 0.5rem;
 }
+
+.actionsTitle{
+  margin: 0.5rem auto;
+  font-size: 3rem;
+  font-weight: bold;
+  text-decoration: underline;
+}

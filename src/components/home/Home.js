@@ -5,7 +5,6 @@ import portTun from '../../assets/port.jpg'
 import compSens from '../../assets/compagnedesensibilisation.jpg'
 import dechets from '../../assets/dechets.jpg'
 import plat from '../../assets/plats.jpg'
-import bot from '../../assets/jellyfishbot.jpg'
 import plastic from '../../assets/plastic.jpg'
 import project from '../../assets/projet.jpg'
 import events from '../../assets/events.jpg'
@@ -73,17 +72,7 @@ const Home = () => {
      
     </section>
 
-    <section className="section">
-      <h2 className='sectionTitle'>La technologie au service de la propreté des ports</h2>
-      <div className='sectionDiv'>
-      <img className='sectionDivIMG' src={bot} alt="Technologie" />
-      <p className='sectionDivPARA'>
-        Un robot, collecteur de déchets, au niveau des bassins portuaires, conçu par notre groupe d’experts tunisiens, fera le ménage ! Une démonstration est au programme, au port de la Goulette, le 16 août 2023, dans le cadre de la journée de sensibilisation, organisée par l’APIP.
-      </p>
-      </div>
     
-    
-    </section>
 
     <section className="section">
       <h2 className='sectionTitle'>Lutter contre la pollution plastique</h2>
