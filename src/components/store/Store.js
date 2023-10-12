@@ -8,7 +8,6 @@ import toast,{ Toaster } from 'react-hot-toast'
 import emailjs from '@emailjs/browser';
 
 
-// Make sure to bind modal to your appElement (https://reactcommunity.org/react-modal/accessibility/)
 
 function Store() {
 
@@ -19,7 +18,6 @@ function Store() {
   
       emailjs.sendForm('service_qp7pkom', 'template_bvbkt1v', form.current, '9_ZsgNTs9fwwm3Qi0')
         .then((result) => {
-            console.log(form.current)
           toast.success('the Email has been sent successfully')
           document.getElementById('name').value=''
           document.getElementById('email').value=''
