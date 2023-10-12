@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ARIBiotech/static/css/main.4e679f9c.css",
-    "main.js": "/ARIBiotech/static/js/main.e916e952.js",
+    "main.css": "/ARIBiotech/static/css/main.df5c3b4e.css",
+    "main.js": "/ARIBiotech/static/js/main.a48e7bce.js",
     "static/js/787.313acc72.chunk.js": "/ARIBiotech/static/js/787.313acc72.chunk.js",
     "static/media/ARIBIOTECH_kelibia.mp4": "/ARIBiotech/static/media/ARIBIOTECH_kelibia.f3bb3f5a648e8be3533f.mp4",
     "static/media/lagoulette.mp4": "/ARIBiotech/static/media/lagoulette.ea58668633978c8b6766.mp4",
@@ -19,7 +19,6 @@
     "static/media/logoSen.png": "/ARIBiotech/static/media/logoSen.9286203f35d36cd4913c.png",
     "static/media/sol6.png": "/ARIBiotech/static/media/sol6.a278defaf8a448008db9.png",
     "static/media/sol5.png": "/ARIBiotech/static/media/sol5.4c894086fccee8c2ea93.png",
-    "static/media/jellyfishbot.jpg": "/ARIBiotech/static/media/jellyfishbot.1281ce3e94f5962f5c5b.jpg",
     "static/media/plastic.jpg": "/ARIBiotech/static/media/plastic.5adabf3bfb6b79e91e09.jpg",
     "static/media/plan.png": "/ARIBiotech/static/media/plan.277001da78d8e0c214ae.png",
     "static/media/sol1.png": "/ARIBiotech/static/media/sol1.5185743b24dd944958a7.png",
@@ -38,17 +37,18 @@
     "static/media/pecheurs.jpg": "/ARIBiotech/static/media/pecheurs.f58ac63d27dfc36e0a19.jpg",
     "static/media/wave.png": "/ARIBiotech/static/media/wave.6ed3b10d51da8cc8d280.png",
     "static/media/industriel.jpg": "/ARIBiotech/static/media/industriel.eda402cf03047e5bbdb1.jpg",
+    "static/media/crevete.jpg": "/ARIBiotech/static/media/crevete.fef1cb2eb8ed3cd296c8.jpg",
     "static/media/email.png": "/ARIBiotech/static/media/email.dbf14da7fa77545ea19d.png",
     "static/media/halqeloued.jpg": "/ARIBiotech/static/media/halqeloued.24ab3d01863ba64390f7.jpg",
     "static/media/Italie-Tunisie-1.jpg": "/ARIBiotech/static/media/Italie-Tunisie-1.fcfc729285f32852856e.jpg",
     "static/media/instagram.png": "/ARIBiotech/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/ARIBiotech/index.html",
-    "main.4e679f9c.css.map": "/ARIBiotech/static/css/main.4e679f9c.css.map",
-    "main.e916e952.js.map": "/ARIBiotech/static/js/main.e916e952.js.map",
+    "main.df5c3b4e.css.map": "/ARIBiotech/static/css/main.df5c3b4e.css.map",
+    "main.a48e7bce.js.map": "/ARIBiotech/static/js/main.a48e7bce.js.map",
     "787.313acc72.chunk.js.map": "/ARIBiotech/static/js/787.313acc72.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e679f9c.css",
-    "static/js/main.e916e952.js"
+    "static/css/main.df5c3b4e.css",
+    "static/js/main.a48e7bce.js"
   ]
 }
