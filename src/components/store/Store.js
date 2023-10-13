@@ -17,7 +17,7 @@ function Store() {
   
       emailjs.sendForm('service_qp7pkom', 'template_bvbkt1v', form.current, '9_ZsgNTs9fwwm3Qi0')
         .then((result) => {
-          toast.success('the Email has been sent successfully')
+          toast.success('la commander a été envoyer avec succés.')
           document.getElementById('name').value=''
           document.getElementById('email').value=''
           document.getElementById('telephone').value=''

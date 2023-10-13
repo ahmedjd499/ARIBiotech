@@ -43,6 +43,12 @@
     align-items: center;
     justify-content: center;
 }
+.desktopmenu{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 80%;
+}
 .desktopMenulistItem {
     margin: 1rem ;
     cursor: pointer;
