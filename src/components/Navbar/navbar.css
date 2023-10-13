@@ -152,6 +152,7 @@
         display: none;
     }
 
+
     .active
     {
         background-color: azure;
@@ -159,7 +160,10 @@
         border: 2px solid #0B416E;
 
     }
-    .link{
+    .dd{
+        border: 2px solid red;
+    }
+    .link {
         display: none;
     }
 }

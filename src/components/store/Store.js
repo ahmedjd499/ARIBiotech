@@ -1,6 +1,5 @@
 import { useRef, useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+
 import './store.css'
 import crevete from '../../assets/crevete.jpg'
 import toast,{ Toaster } from 'react-hot-toast'
@@ -32,23 +31,26 @@ function Store() {
 
     const [show, setShow] = useState(false);
 
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    const handleShow = () => setShow(!show);
   
     return (
       <>
-        <Button variant="primary" onClick={handleShow}>
-        🛒 Acheter
-        </Button>
+        <button  onClick={handleShow} className='open' >
+        🛒 Acheter 1
+        </button>
+        <button  onClick={handleShow} className=' open-mobile' >
+        🛒 Acheter 2
+        </button>
   
-        <Modal show={show} onHide={handleClose} className='modal'>
-          <Modal.Header closeButton className='modalHead'>
-          <Button variant="secondary" onClick={handleClose} className='modalClose'>
+        <div style={{display: show ?  'flex' : 'none' }} className='modal'>
+          <div closeButton className='modalHead'>
+          <button  onClick={handleShow} className='modalClose'>
             ◀️ Retourner
-            </Button>
-            <Modal.Title className='modalTitle'>Bienvenue dans notre boutique 😁 </Modal.Title>
-          </Modal.Header>
-          <Modal.Body className='store'>
+            </button>
+            <div className='modalTitle'>Bienvenue dans notre boutique 😁 </div>
+          </div>
+          <div className='store'>
+         
           <Toaster></Toaster>
  
               <div class="product-card">
@@ -56,25 +58,26 @@ function Store() {
           <img src={crevete} alt="crevete" class="product-img"></img>
       </div>
       <div class="product-info">
-          <h2 class="product-title">Crevettes chevrette</h2>
-          <p class="product-description">dechéts de pêche : crevettes</p>
+          <h2 class="product-title">
+            Déchets de crevettes</h2>
+          <p class="product-description">Déchets issus des industries de crevettes</p>
           <p class="product-price">0.300 dt / Kg</p>
        
       </div>
-      <form  ref={form} onSubmit={sendEmail}>
+      <form  ref={form} onSubmit={sendEmail} className='form-store'>
         <input type='text' required placeholder='Votre nom...' name='name' id='name'/>
         <input type='email' required placeholder='Votre email...'name='email'id='email'/>
         <input type="number" required placeholder='votre téléphone...'name='telephone'id='telephone'/>
         <input type="number"placeholder='Quantité en KG ?' name='quantite'id='quantite'/>
         <input type="hidden"value="crevettes" name='produit'id='produit'/>
-        <button className='com-btn' type='submit'value='send'>Commander</button>
+        <button className='com-btn' type='submit'value='send'>🛒 Commander</button>
        
         </form>
     </div>
           
-          </Modal.Body>
+          </div>
 
-        </Modal>
+        </div>
       </>
     );
 }

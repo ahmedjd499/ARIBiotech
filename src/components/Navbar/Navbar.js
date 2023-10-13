@@ -19,12 +19,9 @@ const [showMenu ,setShowMenu]=useState(false)
         <Link activeClass='active' to='about' spy={true} smooth={true} offset={-100} duration={500}className='desktopMenulistItem'>Présentation </Link>
         <Link activeClass='active' to='events' spy={true} smooth={true} offset={-50} duration={500}className='desktopMenulistItem'>Événements</Link>
         <Link activeClass='active' to='partners' spy={true} smooth={true} offset={-100} duration={500}className='desktopMenulistItem'>Partenaires </Link>
+        <Store className="dd" />
 
     </div>
-    <button className='desktopMenuBtn'>
-           <Store />
-
-    </button>
 
 
 
@@ -35,9 +32,7 @@ const [showMenu ,setShowMenu]=useState(false)
         <Link activeClass='active' to='events' spy={true} smooth={true} offset={-50} duration={500}className='listItem' onClick={()=>setShowMenu(false)}>Événements</Link>
         <Link activeClass='active' to='partners' spy={true} smooth={true} offset={-100} duration={500}className='listItem' onClick={()=>setShowMenu(false)}>Partenaires </Link>
         <span className="break"></span>
-        <button className='Buy'>
             <Store />
-        </button>
     </div>
 
    </nav>
