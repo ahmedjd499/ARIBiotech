@@ -71,6 +71,7 @@ function Store() {
         <input type="number"placeholder='Quantité en KG ?' name='quantite'id='quantite'/>
         <input type="hidden"value="crevettes" name='produit'id='produit'/>
         <button className='com-btn' type='submit'value='send'>🛒 Commander</button>
+        <a className='com-a' href='tel:25379751'>✆ Appeler</a>
        
         </form>
     </div>

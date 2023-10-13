@@ -52,10 +52,11 @@ input{
 
 .com-btn{
     background-color: rgb(153, 162, 209);
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     cursor: pointer;
     border-radius:  1.5rem;
     margin: 0.3rem;
+    color: #fff;
 
 
 }
@@ -156,4 +157,13 @@ button {
 
     }
     
+  }
+
+  .com-a{
+    background-color: rgb(153, 230, 121);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius:  0.7rem;
+    margin: 0.3rem;
+    color: #fff;
   }
