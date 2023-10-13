@@ -36,10 +36,10 @@ function Store() {
     return (
       <>
         <button  onClick={handleShow} className='open' >
-        🛒 Acheter 1
+        🛒 Acheter 
         </button>
         <button  onClick={handleShow} className=' open-mobile' >
-        🛒 Acheter 2
+        🛒 Acheter 
         </button>
   
         <div style={{display: show ?  'flex' : 'none' }} className='modal'>
