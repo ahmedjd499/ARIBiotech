@@ -9,8 +9,9 @@ import Store from './components/store/Store';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/ARIBiotech",
     element: <App />,
+    
     
   },
   {
