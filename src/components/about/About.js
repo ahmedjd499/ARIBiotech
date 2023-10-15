@@ -30,14 +30,14 @@ const About = () => {
          <span className='separetor'></span>
         <div className='objectif'>
             <h2 className='objTitle'>
-                Objectif global du projet 
+                Objectif global 
             </h2>
             <h3 className='objGlobTitle'>
                  Initiative pour le soutien à l’éducation, la recherche, le développement technologique et l’innovation.
             </h3>
             <p className='objGlobDesc'>Le projet vise à renforcer les écosystèmes de la R&I en biotechnologie marine en synergie avec le milieu entrepreneurial pour promouvoir le traitement et la valorisation des biomasses marines et en particulier les déchets dans les ports de pêche.</p>
 
-            <h2 className='objTitle'>Objectifs spécifiques du projet</h2>
+            <h2 className='objTitle'>Objectifs spécifiques </h2>
                 <ul className='objSpec'>
                     <li className='objSpecLI'>
                         
@@ -64,96 +64,7 @@ const About = () => {
         </h2>
         <img src={plan} alt="PLAN" className='planImg' />
 
-        <Accordion allowZeroExpanded className='accordion'>
-
-            <AccordionItem >
-                <AccordionItemHeading>
-                    <AccordionItemButton>
-                    <span className='location'>🗺️ La Goulette</span>
-                    <span className='date'>📆 16 août 2023</span>
-
-                    </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-
-                <Player
-                    playsInline
-                    poster={poster}
-                    src={laGoulette}
-                    />
-                </AccordionItemPanel>
-            </AccordionItem>
-
-            <AccordionItem >
-                <AccordionItemHeading className='head'>
-                    <AccordionItemButton>
-                    <span className='location'>🗺️ Kébilia</span>
-                    <span className='date'>📆 21 août 2023</span>
-
-                    </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                <Player
-                    playsInline
-                    poster={poster}
-                    src={vidKelibia}
-                    />
-                </AccordionItemPanel>
-            </AccordionItem>
-
-            <AccordionItem >
-                <AccordionItemHeading>
-                    <AccordionItemButton>
-                    <span className='location'>🗺️ Bizerte</span>
-                    <span className='date'>📆 31 août 2023</span>
-
-                    </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-
-
-                </AccordionItemPanel>
-            </AccordionItem>
-
-            <AccordionItem >
-                <AccordionItemHeading>
-                    <AccordionItemButton>
-                    <span className='location'>🗺️ Teboulba</span>
-                    <span className='date'>📆 14 novembre 2023</span>
-
-                    </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-
-
-                </AccordionItemPanel>
-            </AccordionItem>
-
-            <AccordionItem >
-                <AccordionItemHeading>
-                    <AccordionItemButton>
-                    <span className='location'>🗺️Mahdia</span>
-                    <span className='date'>📆 16 novembre 2023</span>
-                    </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-
-                </AccordionItemPanel>
-            </AccordionItem>
-
-            <AccordionItem >
-                <AccordionItemHeading>
-                    <AccordionItemButton>
-                    <span className='location'>🗺️ Sfax</span>
-                    <span className='date'>📆 21 novembre 2023</span>
-            </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                </AccordionItemPanel>
-            </AccordionItem>
-
-            </Accordion>
-
+      
         </div>
 
     </section>

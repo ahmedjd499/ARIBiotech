@@ -10,27 +10,6 @@ const Actions = () => {
     <h1 className='actionsTitle'>Actions</h1>
 
     <section className="section">
-      <h2 className='sectionTitle'>Conservation des déchets :  (Kolla-قلّة)</h2>
-      <div className='sectionDiv'>
-      <img className='sectionDivIMG' src={qolla} alt="Technologie" />
-      <p className='sectionDivPARA'>
-        Conservation des déchets de poissons dans un pot en poterie traditionnelle. <br/>
-        Le but est d'avoir une bonne qualité de déchets afin de garantir un meilleur produit à valoriser. </p>
-      </div>
-    </section>
-
-    <section className="section">
-      <h2 className='sectionTitle'>Collection de déchets :  (Carapace de tortue)</h2>
-      <div className='sectionDiv'>
-      <img className='sectionDivIMG' src={carapace} alt="Technologie" />
-      <p className='sectionDivPARA'>
-      Collecteur de déchets fixe sous forme de carapace de tortue <br></br>
-        Il s'agit d'une carapace de tortue fabriquée en résine. Ce collecteur est fixé dans chaque navire de pêche et va permettre la collecte des déchets flottants au niveau du navire.
-      </p>
-      </div>
-    </section>
-
-    <section className="section">
       <h2 className='sectionTitle'>La technologie au service de la propreté des ports</h2>
       <div className='sectionDiv'>
       <img className='sectionDivIMG' src={bot} alt="Technologie" />

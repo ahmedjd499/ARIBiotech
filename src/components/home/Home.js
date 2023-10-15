@@ -5,7 +5,6 @@ import portTun from '../../assets/port.jpg'
 import compSens from '../../assets/compagnedesensibilisation.jpg'
 import dechets from '../../assets/dechets.jpg'
 import plat from '../../assets/plats.jpg'
-import plastic from '../../assets/plastic.jpg'
 import project from '../../assets/projet.jpg'
 import events from '../../assets/events.jpg'
 
@@ -22,14 +21,17 @@ import sol3 from '../../assets/sol3.png'
 import sol4 from '../../assets/sol4.png'
 import sol5 from '../../assets/sol5.png'
 import sol6 from '../../assets/sol6.png'
+import About from './../about/About';
+import Actions from '../actions/Actions'
 
 
 
 const Home = () => {
   return (
+    <>
     <article id="home">
     <section className="section">
-      <h2 className='sectionTitle'>Les déchets dans les ports tunisiens</h2>
+      <h2 className='sectionTitle'>Déchets marins au  niveau des ports</h2>
       <div className='sectionDiv'>
       <img className='sectionDivIMG' src={portTun} alt="Ports tunisiens" />
       <p className='sectionDivPARA'>
@@ -40,7 +42,7 @@ const Home = () => {
     </section>
 
     <section className="section">
-      <h2 className='sectionTitle'>Une campagne de sensibilisation</h2>
+      <h2 className='sectionTitle'>Campagne de sensibilisation</h2>
      <div className='sectionDiv'>
      <img className='sectionDivIMG'src={compSens} alt="Campagne de sensibilisation" />
       <p className='sectionDivPARA'>
@@ -74,19 +76,9 @@ const Home = () => {
 
     
 
-    <section className="section">
-      <h2 className='sectionTitle'>Lutter contre la pollution plastique</h2>
-    <div className='sectionDiv'>
-    <img className='sectionDivIMG' src={plastic} alt="Pollution plastique" />
-      <p className='sectionDivPARA'>
-        «La pêche aux déchets plastiques» est également l’un des thèmes de la campagne de sensibilisation pour lutter contre la pollution marine. En rapportant le plastique «pêché», nos marins «sensibilisés» préservent leur activité, source de revenu pour beaucoup de familles tunisiennes dans toutes les régions côtières.
-      </p>
-    </div>
-     
-    </section>
 
     <section className="section">
-      <h2 className='sectionTitle'>Le projet ARIBiotech dans son ensemble</h2>
+      <h2 className='sectionTitle'>Projet ARIBiotech dans son ensemble</h2>
      <div className='sectionDiv'>
      <img className='sectionDivIMG' src={project} alt="Projet ARIBiotech" />
       <p className='sectionDivPARA'>
@@ -159,8 +151,12 @@ const Home = () => {
       </div>
     </section>
     
+    <About />
+    <Actions />
+
 
   </article>
+  </>
   )
 }
 
