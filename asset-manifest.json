@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ARIBiotech/static/css/main.0b53c373.css",
-    "main.js": "/ARIBiotech/static/js/main.fc5e6e1d.js",
+    "main.css": "/ARIBiotech/static/css/main.014770ae.css",
+    "main.js": "/ARIBiotech/static/js/main.fe45b072.js",
     "static/js/787.313acc72.chunk.js": "/ARIBiotech/static/js/787.313acc72.chunk.js",
     "static/media/ARIBIOTECH_kelibia.mp4": "/ARIBiotech/static/media/ARIBIOTECH_kelibia.f3bb3f5a648e8be3533f.mp4",
     "static/media/lagoulette.mp4": "/ARIBiotech/static/media/lagoulette.ea58668633978c8b6766.mp4",
@@ -22,8 +22,7 @@
     "static/media/sol6.png": "/ARIBiotech/static/media/sol6.a278defaf8a448008db9.png",
     "static/media/sol5.png": "/ARIBiotech/static/media/sol5.4c894086fccee8c2ea93.png",
     "static/media/jellyfishbot.jpg": "/ARIBiotech/static/media/jellyfishbot.1281ce3e94f5962f5c5b.jpg",
-    "static/media/plastic.jpg": "/ARIBiotech/static/media/plastic.5adabf3bfb6b79e91e09.jpg",
-    "static/media/plan.png": "/ARIBiotech/static/media/plan.277001da78d8e0c214ae.png",
+    "static/media/plan.png": "/ARIBiotech/static/media/plan.430740fa1389f588fe7e.png",
     "static/media/sol1.png": "/ARIBiotech/static/media/sol1.5185743b24dd944958a7.png",
     "static/media/institutozoo.png": "/ARIBiotech/static/media/institutozoo.1c1503f0ab8cd6a35f7d.png",
     "static/media/sol2.png": "/ARIBiotech/static/media/sol2.f086897b43c15050a182.png",
@@ -46,12 +45,12 @@
     "static/media/Italie-Tunisie-1.jpg": "/ARIBiotech/static/media/Italie-Tunisie-1.fcfc729285f32852856e.jpg",
     "static/media/instagram.png": "/ARIBiotech/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/ARIBiotech/index.html",
-    "main.0b53c373.css.map": "/ARIBiotech/static/css/main.0b53c373.css.map",
-    "main.fc5e6e1d.js.map": "/ARIBiotech/static/js/main.fc5e6e1d.js.map",
+    "main.014770ae.css.map": "/ARIBiotech/static/css/main.014770ae.css.map",
+    "main.fe45b072.js.map": "/ARIBiotech/static/js/main.fe45b072.js.map",
     "787.313acc72.chunk.js.map": "/ARIBiotech/static/js/787.313acc72.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b53c373.css",
-    "static/js/main.fc5e6e1d.js"
+    "static/css/main.014770ae.css",
+    "static/js/main.fe45b072.js"
   ]
 }
