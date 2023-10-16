@@ -79,7 +79,7 @@ setDesable(true)
     <>
       <div className="modal">
         <div closeButton className="modalHead">
-          <LinkNav to={`/ARIBiotech`} className="modalClose">
+          <LinkNav to={`/`} className="modalClose">
             {" "}
             ◀️ Retourner
           </LinkNav>
