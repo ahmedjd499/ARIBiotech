@@ -33,6 +33,7 @@ setDesable(true)
           document.getElementById("email").value = "";
           document.getElementById("telephone").value = "";
           document.getElementById("quantite").value = "";
+          document.getElementById("prix").value = "";
           document.getElementById("localisation").value = "";
           setSpin('');
           setDesable(false)
@@ -146,6 +147,13 @@ setDesable(true)
                         name="telephone"
                         id="telephone"
                       />
+                      
+                       <input
+                        type="number"
+                        placeholder="Proposer un prix dt..."
+                        name="prix"
+                        id="prix"
+                      />
                       <input
                         type="number"
                         placeholder="Quantité en KG ?"
@@ -200,6 +208,12 @@ setDesable(true)
                     name="telephone"
                     id="telephone"
                   />
+                   <input
+                        type="number"
+                        placeholder="Proposer un prix dt..."
+                        name="prix"
+                        id="prix"
+                      />
                   <input
                     type="number"
                     placeholder="Quantité en KG ?"
