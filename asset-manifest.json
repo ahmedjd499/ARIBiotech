@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ARIBiotech/static/css/main.014770ae.css",
-    "main.js": "/ARIBiotech/static/js/main.be7ea72d.js",
+    "main.css": "/ARIBiotech/static/css/main.e1dbc91e.css",
+    "main.js": "/ARIBiotech/static/js/main.d5cb9ddc.js",
     "static/js/787.313acc72.chunk.js": "/ARIBiotech/static/js/787.313acc72.chunk.js",
     "static/media/ARIBIOTECH_kelibia.mp4": "/ARIBiotech/static/media/ARIBIOTECH_kelibia.f3bb3f5a648e8be3533f.mp4",
     "static/media/lagoulette.mp4": "/ARIBiotech/static/media/lagoulette.ea58668633978c8b6766.mp4",
@@ -45,12 +45,12 @@
     "static/media/Italie-Tunisie-1.jpg": "/ARIBiotech/static/media/Italie-Tunisie-1.fcfc729285f32852856e.jpg",
     "static/media/instagram.png": "/ARIBiotech/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/ARIBiotech/index.html",
-    "main.014770ae.css.map": "/ARIBiotech/static/css/main.014770ae.css.map",
-    "main.be7ea72d.js.map": "/ARIBiotech/static/js/main.be7ea72d.js.map",
+    "main.e1dbc91e.css.map": "/ARIBiotech/static/css/main.e1dbc91e.css.map",
+    "main.d5cb9ddc.js.map": "/ARIBiotech/static/js/main.d5cb9ddc.js.map",
     "787.313acc72.chunk.js.map": "/ARIBiotech/static/js/787.313acc72.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.014770ae.css",
-    "static/js/main.be7ea72d.js"
+    "static/css/main.e1dbc91e.css",
+    "static/js/main.d5cb9ddc.js"
   ]
 }
