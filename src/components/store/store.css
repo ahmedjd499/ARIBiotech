@@ -79,6 +79,7 @@ button {
 
 .product-card {
     background-color: #fff;
+    max-width: 60rem;
     border-radius: 1rem;
     margin: 1rem;
     padding: 0.5rem;
@@ -87,6 +88,7 @@ button {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    
   }
   
   .product-img-container {
@@ -118,23 +120,14 @@ button {
     font-size: 16px;
     margin-bottom: 20px;
   }
-  
-  .product-price {
-    font-size: 20px;
-    font-weight: 600;
-    background-color: cornflowerblue;
-    color: white;
-    width: fit-content;
-    border-radius: 1rem;
-    padding: 0.3rem 1rem;
-  }
+
 
  
 
 
   .com-a{
-    background-color: rgb(153, 230, 121);
-    padding: 0.5rem 1rem;
+    background-color: rgb(151, 142, 151);
+    padding: 0.4rem 1rem;
     cursor: pointer;
     border-radius:  0.7rem;
     margin: 0.3rem;
@@ -204,5 +197,25 @@ button {
   } 40% { 
     -webkit-transform: scale(1.0);
     transform: scale(1.0);
+  }
+}
+
+.details{
+  color:rgb(102, 100, 100);
+  margin: 1rem;
+  padding: 0.5rem;
+  text-align: justify;
+  border-radius: 0.5rem;
+  box-shadow: 0px 10px 38px 3px rgba(196, 193, 206, 0.75);
+-webkit-box-shadow: 0px 10px 38px 3px rgba(190, 184, 206, 0.75);
+-moz-box-shadow: 0px 10px 38px 3px rgba(184, 178, 205, 0.75);
+animation: fade-in 2s;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

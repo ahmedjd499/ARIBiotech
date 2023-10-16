@@ -11,6 +11,7 @@ function Store() {
   const form = useRef();
   const [url ,setUrl ]=useState('')
   const [spin ,setSpin ]=useState('')
+  const [details ,setDetails ]=useState(false)
   const [desable ,setDesable ]=useState(false)
   const sendEmail = (e) => {
     e.preventDefault();
@@ -32,6 +33,7 @@ setDesable(true)
           document.getElementById("email").value = "";
           document.getElementById("telephone").value = "";
           document.getElementById("quantite").value = "";
+          document.getElementById("localisation").value = "";
           setSpin('');
           setDesable(false)
         },
@@ -96,7 +98,7 @@ setDesable(true)
               <p class="product-description">
                 Déchets issus des industries de crevettes
               </p>
-              <p class="product-price">0.300 dt / Kg</p>
+            
             </div>
 
             <form ref={form} onSubmit={sendEmail} className="form-store">
@@ -221,9 +223,9 @@ setDesable(true)
                 </>
               )}
 
-              <a className="com-a" href="tel:25379751">
-                ✆ Appeler
-              </a>
+              <span className="com-a" onClick={()=>setDetails(!details)}>
+               ➕ On savoir plus
+              </span>
               {
                 !show && ( <span
                   className="com-btn"
@@ -238,6 +240,9 @@ setDesable(true)
               }
              <input type="hidden" value={isBuy? "une nouvelle commande d'achat" : "un nouvel offre de vente"} name="action" />
             </form>
+            <p className="details" style={{'display':details?"inline-block":'none'}}>Si vous produisez ce type de déchets. Merci d'indiquer la quantité et la localisation. Ainsi, vous pouvez proposer le prix qui vous convient. 
+                  L'achat de coproduits dépend de la disponibilité dans le marché.
+            </p>
           </div>
         </div>
       </div>
