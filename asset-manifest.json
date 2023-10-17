@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ARIBiotech/static/css/main.3915e402.css",
-    "main.js": "/ARIBiotech/static/js/main.45d6328c.js",
+    "main.css": "/ARIBiotech/static/css/main.d40c0157.css",
+    "main.js": "/ARIBiotech/static/js/main.6c190df4.js",
     "static/js/787.313acc72.chunk.js": "/ARIBiotech/static/js/787.313acc72.chunk.js",
     "static/media/ARIBIOTECH_kelibia.mp4": "/ARIBiotech/static/media/ARIBIOTECH_kelibia.f3bb3f5a648e8be3533f.mp4",
     "static/media/lagoulette.mp4": "/ARIBiotech/static/media/lagoulette.ea58668633978c8b6766.mp4",
@@ -37,6 +37,9 @@
     "static/media/ministere.jpg": "/ARIBiotech/static/media/ministere.1123023b0e1829cd54b6.jpg",
     "static/media/cnrias.png": "/ARIBiotech/static/media/cnrias.41a4b321e3d6c43a7409.png",
     "static/media/pecheurs.jpg": "/ARIBiotech/static/media/pecheurs.f58ac63d27dfc36e0a19.jpg",
+    "static/media/mollusque.jpg": "/ARIBiotech/static/media/mollusque.b294050e61ef76028911.jpg",
+    "static/media/déchets végétaux.jpg": "/ARIBiotech/static/media/déchets végétaux.50e4e4d147e1238ccd7e.jpg",
+    "static/media/poissons.jpg": "/ARIBiotech/static/media/poissons.2fd8306a08ce9dacbe56.jpg",
     "static/media/wave.png": "/ARIBiotech/static/media/wave.6ed3b10d51da8cc8d280.png",
     "static/media/industriel.jpg": "/ARIBiotech/static/media/industriel.eda402cf03047e5bbdb1.jpg",
     "static/media/crevete.jpg": "/ARIBiotech/static/media/crevete.fef1cb2eb8ed3cd296c8.jpg",
@@ -45,12 +48,12 @@
     "static/media/Italie-Tunisie-1.jpg": "/ARIBiotech/static/media/Italie-Tunisie-1.fcfc729285f32852856e.jpg",
     "static/media/instagram.png": "/ARIBiotech/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/ARIBiotech/index.html",
-    "main.3915e402.css.map": "/ARIBiotech/static/css/main.3915e402.css.map",
-    "main.45d6328c.js.map": "/ARIBiotech/static/js/main.45d6328c.js.map",
+    "main.d40c0157.css.map": "/ARIBiotech/static/css/main.d40c0157.css.map",
+    "main.6c190df4.js.map": "/ARIBiotech/static/js/main.6c190df4.js.map",
     "787.313acc72.chunk.js.map": "/ARIBiotech/static/js/787.313acc72.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3915e402.css",
-    "static/js/main.45d6328c.js"
+    "static/css/main.d40c0157.css",
+    "static/js/main.6c190df4.js"
   ]
 }
