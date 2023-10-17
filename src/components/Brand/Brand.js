@@ -4,12 +4,12 @@ import brand from '../../assets/ARI1.jpg'
 const Brand = () => {
   return (
     <div id='brand'>
-        <img src={brand} alt="ARIbiotech" className='brandImg'/>
         <div className='brandTitle'>
-            <span className='brandTitle1'>ARI</span>
-            <span className='brandTitle2'>Biotech</span>
+            <span className='brandTitle1'> MARINE &nbsp;</span>
+            <span className='brandTitle2'> E-SOUK &nbsp;</span>
+            <span className='brandTitle1'> WASTE </span>
+
         </div>
-        <span className='brandDesc'>Alliance de R&I en Biotechnologie bleue pour la valorisation des déchets marins</span>
     </div>
   )
 }
