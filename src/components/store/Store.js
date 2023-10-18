@@ -7,7 +7,7 @@ import crustace from "../../assets/crustace.jpg";
 import mollusque from "../../assets/mollusque.jpg";
 import poissons from "../../assets/poissons.jpg";
 import vegetal from "../../assets/déchets végétaux.jpg";
-import effluants from "../../assets/effluents.jpg";
+import effluents from "../../assets/effluents.jpg";
 
 function Store() {
   return (
@@ -19,7 +19,7 @@ function Store() {
             ◀️ Retourner
           </LinkNav>
 
-          <div className="modalTitle">Bienvenue dans notre boutique 😁 </div>
+          <div className="modalTitle">Bienvenue dans notre boutique 🛒 </div>
         </div>
         <div className="store">
           <div className="product-card">
@@ -86,15 +86,15 @@ function Store() {
 
           <div className="product-card">
             <div className="product-img-container">
-              <img src={effluants} alt="effluants" className="product-img"></img>
+              <img src={effluents} alt="effluents" className="product-img"></img>
             </div>
             <div className="product-info">
-              <h2 className="product-title">Déchets d'effluants</h2>
+              <h2 className="product-title">Déchets d'effluents</h2>
               <p className="product-description">
-                Déchets issus des industries d'effluants
+                Déchets issus des industries d'effleants
               </p>
             </div>
-            <Form produit="effluants" />
+            <Form produit="effluents" />
           </div>
 
 
