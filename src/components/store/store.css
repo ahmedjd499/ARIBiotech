@@ -80,7 +80,7 @@ button {
 .product-card {
     background-color: #fff;
     max-width: 60rem;
-    width: 80%;
+    width: 90%;
     border-radius: 1rem;
     margin: 1rem;
     padding: 2rem 0.5rem;
@@ -108,14 +108,16 @@ button {
   }
   
   .product-info {
-    padding: 2rem;
-    width: 60%;
+    padding: 0.5rem;
+    width: 90%;
     
   }
   
   .product-title {
-    font-size: 24px;
+    text-align: center;
+    font-size: 1rem;
     font-weight: 700;
+    width: 100%;
     margin-bottom: 10px;
   }
   
@@ -141,8 +143,7 @@ button {
     width: 40px;
     height: 40px;
     background-color: gainsboro;
-    margin-left: -20px;
-    margin-right: 10px;
+    margin-left: -40px;
     padding: 10px;
     border-radius: 50%;
     background: white;
@@ -220,4 +221,21 @@ animation: fade-in 2s;
   to {
     opacity: 1;
   }
+}
+
+
+@media screen and (min-width:550px) {
+  .product-info {
+    padding: 2rem;
+    width: 60%;
+  }
+  .product-title {
+    text-align: left;
+
+    font-size: 2rem;
+    font-weight: 700;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
 }

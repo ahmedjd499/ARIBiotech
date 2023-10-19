@@ -28,9 +28,6 @@ function Store() {
             </div>
             <div className="product-info">
               <h2 className="product-title">Déchets de crevettes</h2>
-              <p className="product-description">
-                Déchets issus des industries de crevettes
-              </p>
             </div>
             <Form produit="crevettes" />
           </div>
@@ -40,12 +37,10 @@ function Store() {
               <img src={crustace} alt="crustace" className="product-img"></img>
             </div>
             <div className="product-info">
-              <h2 className="product-title">Déchets de crustace</h2>
-              <p className="product-description">
-                Déchets issus des industries de crustace
-              </p>
+              <h2 className="product-title">Déchets de crustacés</h2>
+             
             </div>
-            <Form produit="crustace" />
+            <Form produit="crustacés" />
           </div>
 
           <div className="product-card">
@@ -53,10 +48,8 @@ function Store() {
               <img src={mollusque} alt="mollusque" className="product-img"></img>
             </div>
             <div className="product-info">
-              <h2 className="product-title">Déchets de mollusque</h2>
-              <p className="product-description">
-                Déchets issus des industries de mollusque
-              </p>
+              <h2 className="product-title">Déchets de mollusques</h2>
+            
             </div>
             <Form produit="mollusque" />
           </div>
@@ -67,9 +60,7 @@ function Store() {
             </div>
             <div className="product-info">
               <h2 className="product-title">Déchets de poissons</h2>
-              <p className="product-description">
-                Déchets issus des industries de poissons
-              </p>
+            
             </div>
             <Form produit="poissons" />
           </div>
@@ -80,6 +71,9 @@ function Store() {
             </div>
             <div className="product-info">
               <h2 className="product-title">Déchets végétaux</h2>
+              <p className="product-description">
+              Algues, posidonies, sédiments issus de dragage
+              </p>
             </div>
             <Form produit="Déchets végétaux" />
           </div>
@@ -90,9 +84,7 @@ function Store() {
             </div>
             <div className="product-info">
               <h2 className="product-title">Déchets d'effluents</h2>
-              <p className="product-description">
-                Déchets issus des industries d'effleants
-              </p>
+             
             </div>
             <Form produit="effluents" />
           </div>

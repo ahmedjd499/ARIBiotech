@@ -229,7 +229,7 @@ const Form = (props) => {
    <input type="hidden" value={isBuy? "une nouvelle commande d'achat" : "un nouvel offre de vente"} name="action" />
    { show && (<>
     <span className="com-a" onClick={()=>setDetails(!details)}>
-              ➕ En savoir +
+               En savoir ➕
               </span>
             <p className="details" style={{'display':details?"inline-block":'none'}}>Si vous produisez ce type de déchets. Merci d'indiquer la quantité et la localisation. Ainsi, vous pouvez proposer le prix qui vous convient. 
                   L'achat de coproduits dépend de la disponibilité dans le marché.
