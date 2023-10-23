@@ -14,9 +14,9 @@ function Store() {
     <>
       <div className="modal">
         <div  className="modalHead">
-          <LinkNav to={`/`} className="modalClose">
+          <LinkNav to={`/`} className="retourner">
             {" "}
-            ◀️ Retourner
+           🔙
           </LinkNav>
 
           <div className="modalTitle">Bienvenue dans notre boutique 🛒 </div>

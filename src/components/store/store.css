@@ -26,15 +26,17 @@
     width: 100%;
 }
 .modalTitle{
-    margin: 1rem;
+    margin:  auto;
+    font-size: 2rem;
 }
-.modalClose
+.retourner
 {
-    padding: 0.5rem ;
-    background-color: darkseagreen;
-    color: white;
-    border-radius: 0.5rem;
+    padding: 0 2rem;
+    outline:1px solid   rgb(51, 62, 145);
+    color: rgb(51, 62, 145);
+    border-radius: 0.2rem;
     cursor: pointer;
+    font-size: 2rem;
 }
 
 input{

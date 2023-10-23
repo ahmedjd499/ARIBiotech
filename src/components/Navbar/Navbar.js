@@ -15,7 +15,7 @@ const [showMenu ,setShowMenu]=useState(false)
    <nav className='navbar'>
     <img src={brand} className='logo' alt='ARIBiotech' />
     <div className='desktopmenu'>
-        <Link activeClass='active' to='home' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenulistItem'>Acceuil </Link>
+        <Link activeClass='active' to='home' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenulistItem'>Accueil </Link>
         <Link activeClass='active' to='#' spy={true} smooth={true} offset={-50} duration={500}className='desktopMenulistItem'>Co Produits</Link>
         <Link activeClass='active' to='partners' spy={true} smooth={true} offset={-100} duration={500}className='desktopMenulistItem'>Partenaires </Link>
        
@@ -27,7 +27,7 @@ const [showMenu ,setShowMenu]=useState(false)
 
     <img src={showMenu?close:menu} className='mobMenu' alt='menu'  onClick={()=>setShowMenu(!showMenu)} />
     <div className='navMenu' style={{display : showMenu?'flex':'none'}}>
-        <Link activeClass='active' to='home' spy={true} smooth={true} offset={-100} duration={500} className='listItem' onClick={()=>setShowMenu(false)}>Acceuil </Link>
+        <Link activeClass='active' to='home' spy={true} smooth={true} offset={-100} duration={500} className='listItem' onClick={()=>setShowMenu(false)}>Accueil </Link>
         <Link activeClass='active' to='#' spy={true} smooth={true} offset={-50} duration={500}className='listItem' onClick={()=>setShowMenu(false)}>Co Produits</Link>
         <Link activeClass='active' to='partners' spy={true} smooth={true} offset={-100} duration={500}className='listItem' onClick={()=>setShowMenu(false)}>Partenaires </Link>
         <span className="break"></span>
