@@ -17,8 +17,16 @@
         width:100%   ;
         margin:  0.5rem 0;
         padding: 10px;
-       
-    
+    }
+    .section {
+      width: 100%;
+      padding: 0 !important;
+    }
+    .sectionDivPARA{
+      width: 100% !important;
+      margin: 5px 0 !important;
+      padding: 0 !important;
+      text-align: left;
     }
 }
 

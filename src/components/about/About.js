@@ -2,18 +2,8 @@ import React from 'react'
 import './about.css'
 import plan from '../../assets/plan.png'
 import 'react-accessible-accordion/dist/fancy-example.css';
-import {
-     Accordion,
-     AccordionItem,
-     AccordionItemHeading,
-     AccordionItemButton,
-     AccordionItemPanel,
- } from 'react-accessible-accordion';
- 
-import vidKelibia from '../../assets/ARIBIOTECH_kelibia.mp4'
-import laGoulette from '../../assets/lagoulette.mp4'
-import poster from '../../assets/logoSen.png'
-import { Player } from 'video-react';
+
+
 import "video-react/dist/video-react.css";
 
 
@@ -59,7 +49,7 @@ const About = () => {
         </div>
         <span className='separetor'></span>
         <div className='plan'>
-        <h2 className='objTitle'>
+        <h2 className='objTitle planTitle'>
         📝 Plannification des journées de sensibilisation 📝
         </h2>
         <img src={plan} alt="PLAN" className='planImg' />

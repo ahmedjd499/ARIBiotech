@@ -15,12 +15,51 @@
        
         width:100%   ;
         margin:  0.5rem 0;
-        padding: 10px;
-       
-    
+        padding: 5px;
+
     }
 }
+@media screen and (max-width:400px) {
+    .brandTitle1 , .brandTitle2{
+     font-size: 3rem;
+    }
 
+    .brandTitle , .objectif{
+        width: 100%;
+        margin: 0 !important;
+        padding: 5px !important;
+    }
+
+    .brandTitle .aboutDesc1 ,  .brandTitle .aboutDesc2{
+        width: 100%;
+        text-align: left;
+    }
+
+    .objectif .objGlobTitle , .objectif .objGlobDesc {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+
+    .plan{
+        padding: 5px !important;
+    }
+
+    .plan .planTitle{
+        width: 100%;
+        padding: 0;
+        margin: 0.5rem 0;
+        font-size: 1.3rem;
+        text-align:left;
+    }
+    .plan .planImg{
+            width: 100%;
+            padding: 0;
+            margin: 0.5rem 0;
+
+    }
+}
 
 .aboutDesc1{
     margin: 0 auto;

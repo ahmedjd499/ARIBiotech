@@ -55,9 +55,12 @@
   .linksSocial{
     display: flex;
     flex-wrap: wrap;
-   
-
+    z-index: 999;
 }
+
+
+
+
 .linkSoc{
     object-fit: cover;
     width: 2.5rem ;

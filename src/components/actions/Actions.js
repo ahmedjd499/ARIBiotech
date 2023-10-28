@@ -1,8 +1,7 @@
 import React from 'react'
 import './../home/home.css' 
 import bot from '../../assets/jellyfishbot.jpg'
-import qolla from '../../assets/9olla.jpg'
-import carapace from '../../assets/carapace.jpg'
+
 
 const Actions = () => {
   return (
