@@ -1,0 +1,211 @@
+#CoProducts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:calc(100vw - 2rem)  ;
+    margin:  0.5rem 1rem;
+    padding: 1rem;
+    background: white;
+  
+
+}
+
+.coproductMarin , .co2{
+    background-image: url('../../assets/co1.jpg');
+    width: 80%;
+    height: 35em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    margin: 1rem 0;
+}
+
+.coproductMarin div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 1.5rem;
+    height:20% ;
+    margin-top: 10%;
+    color: white;
+    background: linear-gradient(to right, darkblue, rgb(107, 255, 243));
+}
+
+.coproductMarin div h2{
+    text-align: center;
+}
+
+.coproductMarin2 {
+    background-image: url('../../assets/co3.png');
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.coproductMarin2 > div:first-child{
+    width: 80%;
+    height: 5rem;
+    background: linear-gradient(to right, rgb(0, 21, 139), rgb(107, 171, 255));
+    border-radius: 1.5rem;
+ 
+    margin: 0 auto;
+}
+
+.coproductMarin2 > div:first-child > h2{
+    text-align: center;
+
+
+}
+
+.coproductMarin2 > div{
+    width: 30%;
+    height: 10rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    color: white;
+ 
+
+}
+
+.coproductMarin2 > div > h4{
+    width: 100%;
+    height: 50%;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: linear-gradient(to right, rgb(0, 137, 139), rgb(107, 255, 243));
+
+}
+.coproductMarin2 > div > .s1{
+    height: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    z-index: 1;
+}
+
+
+.coproductMarin2 > div > h4:hover{
+    transform: skewY(5deg);
+    color: blue;
+    background: white;
+    background-color: none;
+    border: 2px solid rgb(0, 137, 139) ;
+    cursor: pointer;
+}
+
+.coproductMarin3 {
+    background: white;
+    border: 2px solid rgb(0, 149, 255);
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coproductMarin3 > div:first-child{
+    width: 80%;
+    height: 5rem;
+    background: linear-gradient(to right, rgb(63, 139, 0), rgb(174, 255, 107));
+    border-radius: 1.5rem;
+    margin: 0 auto;
+}
+
+.coproductMarin3 > div:first-child > h2{
+    text-align: center;
+
+}
+
+.coproductMarin3 > div{
+    width: 20%;
+    min-width: 10rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.coproductMarin3 > div > h4{
+    width: 100%;
+    height: 50%;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: linear-gradient(to right, rgb(62, 145, 234), rgba(41, 40, 120, 0.884));
+
+}
+.coproductMarin3 > div > .s1{
+    height: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    z-index: 1;
+}
+
+.coproductMarin3 > div > img{
+    width: 100% ;
+    max-height: 10rem;
+    min-height: 10rem;
+    object-fit: contain;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.coproductMarin3 > div > h4:hover +img{
+   scale: 1.2;
+   margin-top: 20px;
+   
+}
+@media screen and (max-width:550px) {
+    #CoProducts{
+       
+        width:100%   ;
+        margin:  0.5rem 0;
+        padding: 10px;
+    }
+
+    .coproductMarin ,.co2,.coproductMarin1, .coproductMarin2 ,.coproductMarin3{
+        width: 100%;
+        padding: 10px;
+    } 
+
+    #CoProducts  div{
+        width: 100%;
+    }
+
+    #CoProducts  img{
+        width: 100% !important;
+        height: auto;
+        max-height: 15rem;
+    }
+
+}

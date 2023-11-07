@@ -137,19 +137,7 @@ const Home = () => {
       </ul>
     </section>
 
-    <section className="section">
-      <h2 className='sectionTitle'>Solutions proposées</h2>
-      <div className='sectionSol'>
-        <img src={sol1} alt="" className='sectionSolImg' />
-        <img src={sol2} alt="" className='sectionSolImg' />
-        <img src={sol3} alt="" className='sectionSolImg' />
-        <img src={sol4} alt="" className='sectionSolImg' />
-        <img src={sol5} alt="" className='sectionSolImg' />
-        <img src={sol6} alt="" className='sectionSolImg' />
-
-       
-      </div>
-    </section>
+  
     
     <About />
     <Actions />
