@@ -4,7 +4,7 @@ import './home.css'
 import portTun from '../../assets/port.jpg'
 import compSens from '../../assets/compagnedesensibilisation.jpg'
 import dechets from '../../assets/dechets.jpg'
-import plat from '../../assets/plats.jpg'
+import plat from '../../assets/plats2.jpg'
 import project from '../../assets/projet.jpg'
 import events from '../../assets/events.jpg'
 
@@ -15,12 +15,6 @@ import pecheurs from '../../assets/pecheurs.jpg'
 import industriel from '../../assets/industriel.jpg'
 import individus from '../../assets/individus.jpg'
 
-import sol1 from '../../assets/sol1.png'
-import sol2 from '../../assets/sol2.png'
-import sol3 from '../../assets/sol3.png'
-import sol4 from '../../assets/sol4.png'
-import sol5 from '../../assets/sol5.png'
-import sol6 from '../../assets/sol6.png'
 import About from './../about/About';
 import Actions from '../actions/Actions'
 

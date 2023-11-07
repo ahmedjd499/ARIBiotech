@@ -120,7 +120,7 @@ const CoProducts = () => {
       
         <div>
           <span className='s1'>⬇️</span>
-          <h4>Marchéts</h4>
+          <h4>Marchés</h4>
           <img src={cop4} alt=" Déchets de Crevettes" />
 
         </div>
@@ -160,7 +160,7 @@ const CoProducts = () => {
       
         <div>
           <span className='s1'>⬇️</span>
-          <h4>Marchéts</h4>
+          <h4>Marchés</h4>
           <img src={cop8} alt=" Déchets de Crevettes" />
 
         </div>
@@ -190,7 +190,7 @@ const CoProducts = () => {
       
         <div>
           <span className='s1'>⬇️</span>
-          <h4>Marchéts</h4>
+          <h4>Marchés</h4>
           <img src={cop11} alt=" Déchets de Crevettes" />
 
         </div>
@@ -230,7 +230,7 @@ const CoProducts = () => {
       
         <div>
           <span className='s1'>⬇️</span>
-          <h4>Marchéts</h4>
+          <h4>Marchés</h4>
           <img src={cop15} alt=" Déchets de Crevettes" />
 
         </div>
