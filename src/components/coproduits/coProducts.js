@@ -52,7 +52,7 @@ const CoProducts = () => {
       
         <div>
           <span className='s1'>⬇️</span>
-          <h4>Déchets de Crevetes</h4>
+          <h4>Déchets de Crevettes</h4>
         </div>
 
   
