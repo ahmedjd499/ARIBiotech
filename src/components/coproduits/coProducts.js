@@ -25,7 +25,6 @@ import cop15 from '../../assets/cop15.png'
 
 import cop16 from '../../assets/cop16.jpg'
 import cop17 from '../../assets/cop18.jpg'
-import cop19 from '../../assets/cop17.png'
 import cop18 from '../../assets/cop19.jpg'
 
 
@@ -39,7 +38,7 @@ const CoProducts = () => {
     <div className='coproductMarin'>
       <div>
         <h2>
-          Coproduits Marin
+          Coproduits Marins
         </h2>
       </div>
     </div>
@@ -47,7 +46,7 @@ const CoProducts = () => {
     <div className='coproductMarin2'>
       <div>
         <h2>
-          Coproduits Marin
+          Coproduits Marins
         </h2>
       </div>
       
@@ -114,7 +113,7 @@ const CoProducts = () => {
       
         <div>
           <span className='s1'>⬇️</span>
-          <h4>Port & Filles</h4>
+          <h4>Port / Filles</h4>
           <img src={cop3} alt=" Déchets de Crevettes" />
 
         </div>
@@ -154,7 +153,7 @@ const CoProducts = () => {
       
         <div>
           <span className='s1'>⬇️</span>
-          <h4>Port & Filles</h4>
+          <h4>Port / Filles</h4>
           <img src={cop7} alt=" Déchets de Crevettes" />
 
         </div>
@@ -184,7 +183,7 @@ const CoProducts = () => {
       
         <div>
           <span className='s1'>⬇️</span>
-          <h4>Port & Filles</h4>
+          <h4>Port / Filles</h4>
           <img src={cop10} alt=" Déchets de Crevettes" />
 
         </div>
@@ -224,7 +223,7 @@ const CoProducts = () => {
       
         <div>
           <span className='s1'>⬇️</span>
-          <h4>Port & Filles</h4>
+          <h4>Port / Filles</h4>
           <img src={cop14} alt=" Déchets de Crevettes" />
 
         </div>
@@ -259,14 +258,11 @@ const CoProducts = () => {
 
         </div>
       
+       
+
         <div>
-          <span className='s1'>⬇️</span>
+        <span className='s1'>⬇️</span>
           <h4>Sédiments</h4>
-          <img src={cop19} alt=" Déchets de Crevettes" />
-
-        </div>
-
-        <div>
           <span className='s1'>⬇️</span>
           <h4>Déchets issus de dragage</h4>
           <img src={cop18} alt=" Déchets de Crevettes" />
