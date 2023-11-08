@@ -1,10 +1,8 @@
 import React from 'react'
 import './about.css'
 import plan from '../../assets/plan.png'
-import 'react-accessible-accordion/dist/fancy-example.css';
 
 
-import "video-react/dist/video-react.css";
 
 
 const About = () => {

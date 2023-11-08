@@ -38,6 +38,7 @@
 .logo:hover {
  scale: 1.2;
  background: white;
+ transition: all 1s;
 }
 
 .brandtitle{
@@ -65,6 +66,7 @@
     padding: 0.5rem 0.5rem;
     border-bottom: 2px solid cornflowerblue;
     border-top: 2px solid cornflowerblue;
+    transition: all 0.5s ease;
 }
 
 .desktopMenuBtn {
@@ -79,6 +81,15 @@
     cursor: pointer;
     padding: 0.5rem 1rem;
 }
+
+.desktopMenuBtn:hover {
+    background: white;
+    border: 2px solid #41C4AF ;
+    color:  #41C4AF;
+    scale: 1.1;
+    transition: all 0.5s;
+}
+
 
 .desktopMenuImg {
     object-fit: cover;

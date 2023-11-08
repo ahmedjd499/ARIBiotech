@@ -22,6 +22,11 @@
     margin: 1rem 0;
 }
 
+.co2{
+    background: none;
+}
+
+
 .coproductMarin div{
     width: 50%;
     display: flex;

@@ -1,6 +1,5 @@
 import React from 'react'
 import './brand.css'
-import brand from '../../assets/ARI1.jpg'
 const Brand = () => {
   return (
     <div id='brand'>
