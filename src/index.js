@@ -3,25 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { RouterProvider, createHashRouter } from 'react-router-dom';
-import Store from './components/store/Store';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const router = createHashRouter([
-  {
-    path: "/*",
-    element: <App />,
-    
-    
-  },
-  {
-    path: "/E-Souk-Waste",
-    element: <Store />,
-  },
-]);
+
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+         <App />
   </React.StrictMode>
 );
 

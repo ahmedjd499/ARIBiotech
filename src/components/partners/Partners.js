@@ -15,6 +15,7 @@ import p4 from '../../assets/sidithabetbiotechpole.jpg'
 import p3 from '../../assets/apip.jpg'
 import p2 from '../../assets/institutozoo.png'
 import p1 from '../../assets/instm.png'
+import Navbar from '../Navbar/Navbar'
 
 
 const Partners = () => {
@@ -90,10 +91,14 @@ const Partners = () => {
         );
     })
   return (
-    <section id='partners'>
+    <>
+     <Navbar active='part' />
+     <section id='partners'>
       <h2 className='partnersTitle'>🤝 Nos Partenaires 🤝</h2>
       {partnersView}
     </section>
+    </>
+  
   )
 }
 

@@ -17,12 +17,14 @@ import individus from '../../assets/individus.jpg'
 
 import About from './../about/About';
 import Actions from '../actions/Actions'
+import Navbar from '../Navbar/Navbar'
 
 
 
 const Home = () => {
   return (
     <>
+     <Navbar active='acc' />
     <article id="home">
     <section className="section">
       <h2 className='sectionTitle'>Déchets marins au  niveau des ports</h2>

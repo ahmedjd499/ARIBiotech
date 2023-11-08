@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-scroll';
 import './navbar.css' ;
 import menu from '../../assets/menu.png'
 import close from '../../assets/close.png'
@@ -7,18 +6,18 @@ import brand from '../../assets/logoSen.png'
 import { Link as LinkNav } from 'react-router-dom';
 
 
-const Navbar = () => {
+const Navbar = (props) => {
 const [showMenu ,setShowMenu]=useState(false)
-
+  const activeLink=props.active
 
   return (
    <nav className='navbar'>
     <img src={brand} className='logo' alt='ARIBiotech' />
     <div className='desktopmenu'>
-        <Link activeClass='active' to='home' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenulistItem'>Accueil </Link>
-        <Link activeClass='active' to='CoProducts' spy={true} smooth={true} offset={-50} duration={500}className='desktopMenulistItem'>Co Produits</Link>
-        <Link activeClass='active' to='partners' spy={true} smooth={true} offset={-100} duration={500}className='desktopMenulistItem'>Partenaires </Link>
-       
+     
+       <LinkNav to={`/Accueil`} className={activeLink==='acc'?'active desktopMenulistItem' : 'desktopMenulistItem'}>Accueil</LinkNav>
+       <LinkNav to={`/Co-Produits`} className={activeLink==='cop'?'active desktopMenulistItem' : 'desktopMenulistItem'}>Co Produits</LinkNav>
+       <LinkNav to={`/Partners`} className={activeLink==='part'?'active desktopMenulistItem' : 'desktopMenulistItem'}>Partners</LinkNav>
        <LinkNav to={`/E-Souk-Waste`}className='desktopMenuBtn' >🛒 E-Souk</LinkNav>
 
     </div>
@@ -27,9 +26,9 @@ const [showMenu ,setShowMenu]=useState(false)
 
     <img src={showMenu?close:menu} className='mobMenu' alt='menu'  onClick={()=>setShowMenu(!showMenu)} />
     <div className='navMenu' style={{display : showMenu?'flex':'none'}}>
-        <Link activeClass='active' to='home' spy={true} smooth={true} offset={-100} duration={500} className='listItem' onClick={()=>setShowMenu(false)}>Accueil </Link>
-        <Link activeClass='active' to='CoProducts' spy={true} smooth={true} offset={-50} duration={500}className='listItem' onClick={()=>setShowMenu(false)}>Co Produits</Link>
-        <Link activeClass='active' to='partners' spy={true} smooth={true} offset={-100} duration={500}className='listItem' onClick={()=>setShowMenu(false)}>Partenaires </Link>
+        <LinkNav to={`/Accueil`}  className='listItem' onClick={()=>setShowMenu(false)}>Accueil </LinkNav>
+        <LinkNav to={`/Co-Produits`} className='listItem' onClick={()=>setShowMenu(false)}>Co Produits</LinkNav>
+        <LinkNav to={`/Partners`} className='listItem' onClick={()=>setShowMenu(false)}>Partenaires </LinkNav>
         <span className="break"></span>
         <LinkNav to={`/E-souk-Waste`}className='Buy' >🛒 E-Souk</LinkNav>
 

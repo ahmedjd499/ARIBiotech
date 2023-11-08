@@ -31,9 +31,12 @@ import cop18 from '../../assets/cop19.jpg'
 import cop20 from '../../assets/cop20.png'
 import cop21 from '../../assets/cop21.jpg'
 import cop22 from '../../assets/cop22.jpg'
+import Navbar from '../Navbar/Navbar'
 
 const CoProducts = () => {
   return (
+    <>
+    <Navbar active='cop' />
   <section id='CoProducts'>
     <div className='coproductMarin'>
       <div>
@@ -303,6 +306,9 @@ const CoProducts = () => {
 
     </div>
   </section>
+
+  </>
+
   )
 }
 

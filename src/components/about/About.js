@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
 import plan from '../../assets/plan.png'
+import italie from '../../assets/italieEvent.png'
 
 
 
@@ -51,6 +52,7 @@ const About = () => {
         📝 Plannification des journées de sensibilisation 📝
         </h2>
         <img src={plan} alt="PLAN" className='planImg' />
+        <img src={italie} alt="PLAN" className='planImg' />
 
       
         </div>
