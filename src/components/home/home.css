@@ -111,7 +111,8 @@ border: none;
     display: flex;
     flex-direction: column; 
     color: rgb(216, 110, 34);
-    background-color: rgb(233, 229, 233);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(3, 192, 255);
     align-items: center;
     padding: 0.5rem;
     border-radius: 0.5rem;
@@ -126,7 +127,7 @@ border: none;
 
 .sectionUlLiSpan{
   margin: 0.5rem auto;
-  color: darkgray;
+  color: rgb(154, 149, 149);
   font-weight: 300;
 }
 

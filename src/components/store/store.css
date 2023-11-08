@@ -29,6 +29,21 @@
     margin:  auto;
     font-size: 2rem;
 }
+@media screen and (max-width:650px) {
+  .modalTitle{
+    font-size: 1.5rem;
+    margin-left: 10px;
+    
+  }
+}
+
+@media screen and (max-width:550px) {
+  .modalTitle{
+    font-size: 1rem;
+    margin-left: 10px;
+
+}
+}
 .retourner
 {
     padding: 0 2rem;

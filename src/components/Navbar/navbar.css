@@ -35,6 +35,11 @@
     
 }
 
+.logo:hover {
+ scale: 1.2;
+ background: white;
+}
+
 .brandtitle{
     font-size: 2rem;
     font-weight: 400;
