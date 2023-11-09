@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ARIBiotech/static/css/main.3c16922f.css",
-    "main.js": "/ARIBiotech/static/js/main.bf39274f.js",
+    "main.css": "/ARIBiotech/static/css/main.ca3aafcd.css",
+    "main.js": "/ARIBiotech/static/js/main.bb4144bc.js",
     "static/js/787.313acc72.chunk.js": "/ARIBiotech/static/js/787.313acc72.chunk.js",
     "static/media/plats2.jpg": "/ARIBiotech/static/media/plats2.e489076c69c043ca31e8.jpg",
     "static/media/co2.png": "/ARIBiotech/static/media/co2.96e610ac2b200f225bec.png",
@@ -15,16 +15,16 @@
     "static/media/dechetsolide.jpg": "/ARIBiotech/static/media/dechetsolide.1fea2c8bb4690c48c3c9.jpg",
     "static/media/individus.jpg": "/ARIBiotech/static/media/individus.e3c7803ab8b2debfbcbf.jpg",
     "static/media/compagnedesensibilisation.jpg": "/ARIBiotech/static/media/compagnedesensibilisation.6d49c65adf6d0dd8aa96.jpg",
-    "static/media/italieEvent.png": "/ARIBiotech/static/media/italieEvent.0eaee0401950ef74b68a.png",
+    "static/media/italieEvent.png": "/ARIBiotech/static/media/italieEvent.d83c3bee4ccb90b66081.png",
     "static/media/logoSen.png": "/ARIBiotech/static/media/logoSen.9286203f35d36cd4913c.png",
     "static/media/jellyfishbot.jpg": "/ARIBiotech/static/media/jellyfishbot.1281ce3e94f5962f5c5b.jpg",
-    "static/media/plan.png": "/ARIBiotech/static/media/plan.430740fa1389f588fe7e.png",
+    "static/media/plan.png": "/ARIBiotech/static/media/plan.3b9119d077b2714156ff.png",
     "static/media/cop21.jpg": "/ARIBiotech/static/media/cop21.8003cc64c4f998fdd0f1.jpg",
     "static/media/cop22.jpg": "/ARIBiotech/static/media/cop22.2f25173ff5460c8eeadd.jpg",
     "static/media/cop20.png": "/ARIBiotech/static/media/cop20.e8d1aab91d8081e8ff38.png",
-    "static/media/bac2.jpg": "/ARIBiotech/static/media/bac2.0475e41e150e3f63582c.jpg",
     "static/media/cop15.png": "/ARIBiotech/static/media/cop15.c1544f725d5049e0947c.png",
     "static/media/institutozoo.png": "/ARIBiotech/static/media/institutozoo.1c1503f0ab8cd6a35f7d.png",
+    "static/media/bac3.jpg": "/ARIBiotech/static/media/bac3.c32f80e4dfe2d2960fd9.jpg",
     "static/media/cop4.png": "/ARIBiotech/static/media/cop4.4c1cab9d2cc5e044e18b.png",
     "static/media/cop13.jpg": "/ARIBiotech/static/media/cop13.1a37e4ecdfad6d901486.jpg",
     "static/media/logo-union-europeenne.jpg": "/ARIBiotech/static/media/logo-union-europeenne.718b51fba5e869c5695f.jpg",
@@ -43,6 +43,7 @@
     "static/media/cop6.jpg": "/ARIBiotech/static/media/cop6.e21c135bb82969f1f1e4.jpg",
     "static/media/sidithabetbiotechpole.jpg": "/ARIBiotech/static/media/sidithabetbiotechpole.69f2a67b93d9d6e449c6.jpg",
     "static/media/dechetliquide.jpg": "/ARIBiotech/static/media/dechetliquide.a0a1a9ce483ab795c000.jpg",
+    "static/media/bac.jpg": "/ARIBiotech/static/media/bac.adea3f79effa77039768.jpg",
     "static/media/instm.png": "/ARIBiotech/static/media/instm.e5323115e1c60ac1282d.png",
     "static/media/regionesicilia.jpg": "/ARIBiotech/static/media/regionesicilia.fb80d5e55b784f1a34c2.jpg",
     "static/media/consorzio-universita-trapani.jpg": "/ARIBiotech/static/media/consorzio-universita-trapani.a501edf0976f5bed1c0d.jpg",
@@ -62,12 +63,12 @@
     "static/media/Italie-Tunisie-1.jpg": "/ARIBiotech/static/media/Italie-Tunisie-1.fcfc729285f32852856e.jpg",
     "static/media/instagram.png": "/ARIBiotech/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/ARIBiotech/index.html",
-    "main.3c16922f.css.map": "/ARIBiotech/static/css/main.3c16922f.css.map",
-    "main.bf39274f.js.map": "/ARIBiotech/static/js/main.bf39274f.js.map",
+    "main.ca3aafcd.css.map": "/ARIBiotech/static/css/main.ca3aafcd.css.map",
+    "main.bb4144bc.js.map": "/ARIBiotech/static/js/main.bb4144bc.js.map",
     "787.313acc72.chunk.js.map": "/ARIBiotech/static/js/787.313acc72.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c16922f.css",
-    "static/js/main.bf39274f.js"
+    "static/css/main.ca3aafcd.css",
+    "static/js/main.bb4144bc.js"
   ]
 }
