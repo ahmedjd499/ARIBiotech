@@ -32,6 +32,7 @@ import cop20 from '../../assets/cop20.png'
 import cop21 from '../../assets/cop21.jpg'
 import cop22 from '../../assets/cop22.jpg'
 import Navbar from '../Navbar/Navbar'
+import { Link } from 'react-scroll'
 
 const CoProducts = () => {
   return (
@@ -55,43 +56,48 @@ const CoProducts = () => {
       
         <div>
           <span className='s1'>⬇️</span>
-          <h4>Déchets de Crevettes</h4>
+        <Link activeClass='active' to='1' spy={true} smooth={true} offset={-100} duration={500} className='prod'>Déchets de Crevettes </Link>
         </div>
 
   
         <div>
           <span className='s1'>⬇️</span>
-          <h4>Déchets de Crustacés</h4>
+        <Link activeClass='active' to='2' spy={true} smooth={true} offset={-100} duration={500} className='prod'>Déchets de Crustacés </Link>
         </div>
 
 
       
         <div>
           <span className='s1'>⬇️</span>
-          <h4>Déchets de Mollusques</h4>
+        <Link activeClass='active' to='3' spy={true} smooth={true} offset={-100} duration={500} className='prod'>Déchets de Mollusques</Link>
+
         </div>
       
         <div>
           <span className='s1'>⬇️</span>
-          <h4>Déchets de Poissons</h4>
+        <Link activeClass='active' to='4' spy={true} smooth={true} offset={-100} duration={500} className='prod'>Déchets de Poissons</Link>
+
         </div>
 
       
         <div>
           <span className='s1'>⬇️</span>
-          <h4>Effluents</h4>
+        <Link activeClass='active' to='6' spy={true} smooth={true} offset={-100} duration={500} className='prod'>Effluents</Link>
+
+      
         </div>
 
    
       
         <div>
           <span className='s1'>⬇️</span>
-          <h4>Déchets Végétaux</h4>
+        <Link activeClass='active' to='5' spy={true} smooth={true} offset={-100} duration={500} className='prod'>Déchets Végétaux</Link>
+
         </div>
 
     </div>
 
-    <div className='coproductMarin3'>
+    <div className='coproductMarin3' id='1'>
       <div>
         <h2>
           Déchets de Crevettes
@@ -116,7 +122,7 @@ const CoProducts = () => {
       
         <div>
           <span className='s1'>⬇️</span>
-          <h4>Port / Filles</h4>
+          <h4>Port / Filets</h4>
           <img src={cop3} alt=" Déchets de Crevettes" />
 
         </div>
@@ -131,7 +137,7 @@ const CoProducts = () => {
 
     </div>
 
-    <div className='coproductMarin3'>
+    <div className='coproductMarin3' id='2'>
       <div>
         <h2>
           Déchets de Crustacés
@@ -156,7 +162,7 @@ const CoProducts = () => {
       
         <div>
           <span className='s1'>⬇️</span>
-          <h4>Port / Filles</h4>
+          <h4>Port / Filets</h4>
           <img src={cop7} alt=" Déchets de Crevettes" />
 
         </div>
@@ -171,7 +177,7 @@ const CoProducts = () => {
 
     </div>
 
-    <div className='coproductMarin3'>
+    <div className='coproductMarin3' id='3'>
       <div>
         <h2>
           Déchets de Mollusques
@@ -186,7 +192,7 @@ const CoProducts = () => {
       
         <div>
           <span className='s1'>⬇️</span>
-          <h4>Port / Filles</h4>
+          <h4>Port / Filets</h4>
           <img src={cop10} alt=" Déchets de Crevettes" />
 
         </div>
@@ -201,7 +207,7 @@ const CoProducts = () => {
 
     </div>
 
-    <div className='coproductMarin3'>
+    <div className='coproductMarin3' id='4'>
       <div>
         <h2>
           Déchets de Poissons
@@ -226,7 +232,7 @@ const CoProducts = () => {
       
         <div>
           <span className='s1'>⬇️</span>
-          <h4>Port / Filles</h4>
+          <h4>Port / Filets</h4>
           <img src={cop14} alt=" Déchets de Crevettes" />
 
         </div>
@@ -241,7 +247,7 @@ const CoProducts = () => {
 
     </div>
 
-    <div className='coproductMarin3'>
+    <div className='coproductMarin3' id='5'>
       <div>
         <h2>
           Déchets Végétaux
@@ -274,7 +280,7 @@ const CoProducts = () => {
 
     </div>
 
-    <div className='coproductMarin3'>
+    <div className='coproductMarin3' id='6'>
       <div>
         <h2>
           Effluents Liquides

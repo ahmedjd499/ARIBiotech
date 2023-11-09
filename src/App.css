@@ -35,3 +35,8 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #3865ad;
 }
+
+
+a:visited{
+  color: #245389;
+}

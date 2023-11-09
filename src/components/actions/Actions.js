@@ -1,7 +1,8 @@
 import React from 'react'
 import './../home/home.css' 
 import bot from '../../assets/jellyfishbot.jpg'
-import bac from '../../assets/bac2.jpg'
+import bac from '../../assets/bac.jpg'
+import bac3 from '../../assets/bac3.jpg'
 
 
 const Actions = () => {
@@ -21,7 +22,8 @@ const Actions = () => {
     <section className="section">
       <h2 className='sectionTitle'>Bac de conservation</h2>
       <div className='sectionDiv'>
-      <img className='sectionDivIMG' src={bac} alt="Technologie" />
+      <img className='sectionDivIMG' src={bac3} alt="Technologie" />
+      <img className='sectionDivIMG' src={bac} alt="Technologie" style={{"margin-top":"0.5rem"}} />
       <p className='sectionDivPARA'>
         Un bac de conservation des coproduits marins afin de garantir une meilleure qualité de produit valorisé.
       </p>
