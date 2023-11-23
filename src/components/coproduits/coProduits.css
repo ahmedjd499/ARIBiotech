@@ -130,7 +130,7 @@
     gap: 1rem;
     display: flex;
     flex-wrap: wrap;
-    align-items: start;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
