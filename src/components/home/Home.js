@@ -141,14 +141,12 @@ const Home = () => {
       <br/>
       <h2 className='sectionTitle'>Les Solutions Proposées</h2>
 
-      <div className='solutions'>
       <img src={s2} className='sectionSolImg' alt="" />
       <img src={s3} className='sectionSolImg' alt="" />
       <img src={s4} className='sectionSolImg' alt="" />
       <img src={s5} className='sectionSolImg' alt="" />
       <img src={s6} className='sectionSolImg' alt="" />
 
-      </div>
     </section>
 
   

@@ -156,8 +156,9 @@ border: none;
 }
 
 .sectionSolImg{
-  width: 100%;
-  margin: 1rem 0 ;
+  max-width: 800px;
+  width: 95%;
+  margin: 1rem auto ;
   padding: 0.5rem;
   border-radius: 1rem;
   border-width: 2px;
