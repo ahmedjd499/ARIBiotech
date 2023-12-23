@@ -17,7 +17,7 @@ const [showMenu ,setShowMenu]=useState(false)
      
        <LinkNav to={`/Accueil`} className={activeLink==='acc'?'active desktopMenulistItem' : 'desktopMenulistItem'}>Accueil</LinkNav>
        <LinkNav to={`/Co-Produits`} className={activeLink==='cop'?'active desktopMenulistItem' : 'desktopMenulistItem'}>Co Produits</LinkNav>
-       <LinkNav to={`/Partners`} className={activeLink==='part'?'active desktopMenulistItem' : 'desktopMenulistItem'}>Partners</LinkNav>
+       <LinkNav to={`/Partners`} className={activeLink==='part'?'active desktopMenulistItem' : 'desktopMenulistItem'}>Partenaires</LinkNav>
        <LinkNav to={`/E-Souk-Waste`}className='desktopMenuBtn' >🛒 E-Souk</LinkNav>
 
     </div>

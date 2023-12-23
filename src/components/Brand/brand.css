@@ -4,12 +4,16 @@
     align-items: center;
     justify-content: center;
     width: calc(100vw);
-    height: fit-content;
+    height: 6rem;
     background: white;
     padding: 0.5rem 2rem;
     text-align: center;
     border-bottom: 2px solid rgb(220, 239, 252);
     margin: 0 auto;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+
   
 }
 

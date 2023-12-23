@@ -15,6 +15,13 @@ import pecheurs from '../../assets/pecheurs.jpg'
 import industriel from '../../assets/industriel.jpg'
 import individus from '../../assets/individus.jpg'
 
+import s2 from '../../assets/s2.png'
+import s3 from '../../assets/s3.png'
+import s4 from '../../assets/s4.png'
+import s5 from '../../assets/s5.png'
+import s6 from '../../assets/s6.png'
+
+
 import About from './../about/About';
 import Actions from '../actions/Actions'
 import Navbar from '../Navbar/Navbar'
@@ -131,6 +138,17 @@ const Home = () => {
            <img src={individus} className='sectionGenImg' alt="" />
         </li>
       </ul>
+      <br/>
+      <h2 className='sectionTitle'>Les Solutions Proposées</h2>
+
+      <div className='solutions'>
+      <img src={s2} className='sectionSolImg' alt="" />
+      <img src={s3} className='sectionSolImg' alt="" />
+      <img src={s4} className='sectionSolImg' alt="" />
+      <img src={s5} className='sectionSolImg' alt="" />
+      <img src={s6} className='sectionSolImg' alt="" />
+
+      </div>
     </section>
 
   
